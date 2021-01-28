@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тестовое задание для компании «Центр-Интернет»</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.min.css">
+  </head>
+  <body>
+    <!--
+      =========================================================
+      ---------------------- ШАПКА САЙТА ----------------------
+      =========================================================
+    -->
+    <header class="site-header">
+      <div class="site-header__logo">
+        <picture>
+          <img src="img/company-logo.svg" width="48" height="48" class="site-header__logo-image" alt="Логотип компании">
+        </picture>
+      </div>
+
+      <h1 class="site-header__main-title">Компания «Центр-Интернет»</h1>
+
+      <section class="site-header__main-navigation">
+        <h2 class="visually-hidden">Навигация по сайту</h2>
+
+        <nav class="main-navigation">
+          <ul class="main-navigation__list navigation-list">
+            <li class="navigation-list__item">
+              <a href="#" class="navigation-list__item-link">Ссылка #1</a>
+            </li>
+            <li class="navigation-list__item">
+              <a href="#" class="navigation-list__item-link">Ссылка #2</a>
+            </li>
+            <li class="navigation-list__item">
+              <a href="#" class="navigation-list__item-link">Ссылка #3</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+    </header>
+
+
+    <!--
+      =========================================================
+      -------------------- ОСНОВНОЙ КОНТЕНТ -------------------
+      =========================================================
+    -->
+    <main class="site-main-content">
+      <div class="site-main-content__column">
+        <aside class="news-article">
+          <h2 class="visually-hidden">Статья</h2>
+
+          <p class="news-article__text">Некоторый текст статьи, написанный специально для компании «Центр-Интернет». Последние новости компании: вышестоящее руководство проинформировало о возможном пополнении в рядах штатных сотрудников, работающих в удалённом формате.</p>
+        </aside>
+
+        <section class="news-picture">
+          <picture>
+            <source type="image/webp" srcset="img/newspaper--desktop.webp" media="(min-width: 1150px)">
+            <source type="image/webp" srcset="img/newspaper--tablet.webp" media="(min-width: 768px)">
+            <source type="image/webp" srcset="img/newspaper--mobile.webp">
+
+            <source srcset="img/newspaper--desktop.jpg" media="(min-width: 1150px)">
+            <source srcset="img/newspaper--tablet.jpg" media="(min-width: 768px)">
+            <img src="img/newspaper--mobile.jpg" width="320" height="280" class="news-picture__image" alt="Картинка для новости">
+          </picture>
+        </section>
+      </div>
+
+      <div class="site-main-content__column main-content">
+        <!--
+          *
+          *** Секция: Шапка основного контента ***
+          *
+        -->
+        <section class="main-content__header">
+          <h2 class="visually-hidden">Шапка основного контента</h2>
+
+          <p class="main-content__placeholder-text">Основной контент</p>
+        </section>
+
+
+        <!--
+          *
+          *** Секция: Карточки с картинками ***
+          *
+        -->
+        <section class="main-content__cards-list">
+          <h2 class="visually-hidden">Карточки с картинками</h2>
+
+          <ul class="cards-list">
+            <li class="cards-list__item">
+              <article class="picture-card">
+                <h2 class="visually-hidden">Название карточки</h2>
+
+                <picture>
+                  <source type="image/webp" srcset="img/picture-1.webp">
+                  <img src="img/picture-1.jpg" width="320" height="320" class="picture-card__image" alt="Картинка для карточки">
+                </picture>
+              </article>
+            </li>
+            <li class="cards-list__item">
+              <article class="picture-card">
+                <h2 class="visually-hidden">Название карточки</h2>
+
+                <picture>
+                  <source type="image/webp" srcset="img/picture-2.webp">
+                  <img src="img/picture-2.jpg" width="320" height="320" class="picture-card__image" alt="Картинка для карточки">
+                </picture>
+              </article>
+            </li>
+            <li class="cards-list__item">
+              <article class="picture-card">
+                <h2 class="visually-hidden">Название карточки</h2>
+
+                <picture>
+                  <source type="image/webp" srcset="img/picture-3.webp">
+                  <img src="img/picture-3.jpg" width="320" height="320" class="picture-card__image" alt="Картинка для карточки">
+                </picture>
+              </article>
+            </li>
+            <li class="cards-list__item">
+              <article class="picture-card">
+                <h2 class="visually-hidden">Название карточки</h2>
+
+                <picture>
+                  <source type="image/webp" srcset="img/picture-4.webp">
+                  <img src="img/picture-4.jpg" width="320" height="320" class="picture-card__image" alt="Картинка для карточки">
+                </picture>
+              </article>
+            </li>
+            <li class="cards-list__item">
+              <article class="picture-card">
+                <h2 class="visually-hidden">Название карточки</h2>
+
+                <picture>
+                  <source type="image/webp" srcset="img/picture-5.webp">
+                  <img src="img/picture-5.jpg" width="320" height="320" class="picture-card__image" alt="Картинка для карточки">
+                </picture>
+              </article>
+            </li>
+            <li class="cards-list__item">
+              <article class="picture-card">
+                <h2 class="visually-hidden">Название карточки</h2>
+
+                <picture>
+                  <source type="image/webp" srcset="img/picture-6.webp">
+                  <img src="img/picture-6.jpg" width="320" height="320" class="picture-card__image" alt="Картинка для карточки">
+                </picture>
+              </article>
+            </li>
+            <li class="cards-list__item">
+              <article class="picture-card">
+                <h2 class="visually-hidden">Название карточки</h2>
+
+                <picture>
+                  <source type="image/webp" srcset="img/picture-7.webp">
+                  <img src="img/picture-7.jpg" width="320" height="320" class="picture-card__image" alt="Картинка для карточки">
+                </picture>
+              </article>
+            </li>
+          </ul>
+        </section>
+
+
+        <!--
+          *
+          *** Секция: Подвал основного контента ***
+          *
+        -->
+        <section class="main-content__footer">
+          <h2 class="visually-hidden">Подвал основного контента</h2>
+
+          <div class="main-content__footer-column">
+            <p class="main-content__footer-placeholder-text">Колонка подвала</p>
+          </div>
+
+          <div class="main-content__footer-column">
+            <p class="main-content__footer-placeholder-text">Колонка подвала</p>
+          </div>
+        </section>
+      </div>
+    </main>
+
+
+    <!--
+      =========================================================
+      ---------------------- ПОДВАЛ САЙТА ---------------------
+      =========================================================
+    -->
+    <footer class="site-footer">
+      <!--
+        *** Секция: Авторские права ***
+      -->
+      <section class="copyright">
+        <h2 class="visually-hidden">Авторские права</h2>
+        <p class="copyright__text">© Copyright 2021</p>
+      </section>
+
+
+      <!--
+        *** Секция: Контакты ***
+      -->
+      <section class="site-footer__contacts">
+        <h2 class="visually-hidden">Контакты</h2>
+
+        <ul class="contacts-list">
+          <li class="contacts-list__item">
+            <a href="tel:+71234567890" class="contacts-list__item-link contacts-list__item-link--tel">+7 (123) 456-78-90</a>
+          </li>
+          <li class="contacts-list__item">
+            <a href="mailto:example@email.com" class="contacts-list__item-link contacts-list__item-link--tel">example@email.com</a>
+          </li>
+        </ul>
+      </section>
+
+
+      <!--
+        *** Секция: Социальные сети ***
+      -->
+      <div class="site-footer__socials-wrapper">
+        <section class="site-footer__socials">
+          <h2 class="visually-hidden">Социальные сети</h2>
+
+          <ul class="socials-list">
+            <li class="socials-list__item">
+              <a href="" class="socials-list__item-link">Инстаграм</a>
+            </li>
+            <li class="socials-list__item">
+              <a href="" class="socials-list__item-link">Фейсбук</a>
+            </li>
+            <li class="socials-list__item">
+              <a href="" class="socials-list__item-link">ВКонтакте</a>
+            </li>
+          </ul>
+        </section>
+
+        <div class="site-footer__developer">
+          <picture>
+            <source type="image/webp" src="img/footer-image.webp">
+            <img src="img/footer-image.jpg" width="320" height="100" class="site-footer__developer-image" alt="Логотип разработчика">
+          </picture>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
