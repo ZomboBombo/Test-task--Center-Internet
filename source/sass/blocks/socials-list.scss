@@ -1,0 +1,27 @@
+.socials-list {
+  @include markerless;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.socials-list__item {
+  margin-right: 6px;
+
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.socials-list__item-link {
+  color: $white;
+  text-decoration: none;
+
+
+  // *** Tempo ***
+  width: 20px;
+  height: 20px;
+  background-color: $silver;
+}

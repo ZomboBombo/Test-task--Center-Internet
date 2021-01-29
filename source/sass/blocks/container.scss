@@ -1,0 +1,35 @@
+.container {
+  max-width: 320px;
+  
+  margin: 0 auto;
+  padding: 0 20px;
+
+
+
+  // Tempo
+  // outline: 2px solid red;
+  // background-color: rgba(255, 0, 0, 0.2);
+}
+
+
+
+/*
+------------------------------------------------------------------
+========================= МЕДИАВЫРАЖЕНИЯ =========================
+------------------------------------------------------------------
+*/
+
+// *** ширина вьюпорта: "Планшет" ***
+@media (min-width: $width--tablet) {
+  .container {
+    max-width: $width--tablet;
+  }
+}
+
+
+// *** ширина вьюпорта: "Десктоп" ***
+@media (min-width: $width--tablet) {
+  .container {
+    max-width: 960px;
+  }
+}

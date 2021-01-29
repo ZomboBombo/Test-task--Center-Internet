@@ -1,0 +1,32 @@
+.copyright {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: auto;
+  min-height: 80px;
+
+  margin-top: 20px;
+  background-color: $background-color--blocks;
+}
+
+.copyright__text {
+  margin: auto;
+
+  color: $white;
+  text-align: center;
+}
+
+
+
+/*
+------------------------------------------------------------------
+========================= МЕДИАВЫРАЖЕНИЯ =========================
+------------------------------------------------------------------
+*/
+
+// *** ширина вьюпорта: "Планшет" ***
+@media (min-width: $width--tablet) {
+  .copyright {
+    margin-top: 0;
+  }
+}

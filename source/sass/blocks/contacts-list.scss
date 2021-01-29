@@ -1,0 +1,77 @@
+.contacts-list {
+  @include markerless;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 20px;
+  padding: 10px 0;
+
+  background-color: $background-color--blocks;
+}
+
+.contacts-list__item {
+  min-width: 140px;
+  width: 200px;
+
+  margin-bottom: 4px;
+
+
+  &:last-child {
+    margin-bottom: 0;
+  } 
+}
+
+.contacts-list__item-link {
+  display: block;
+
+  width: 100%;
+
+  padding: 6px 10px;
+
+  color: $white;
+  text-align: center;
+  text-decoration: none;
+
+  background-color: $silver;
+  border: 1px solid transparent;
+  border-radius: 4px;
+
+  transition-property: color, background-color, transform;
+  transition-duration: 0.08s;
+  transition-timing-function: ease;
+}
+
+
+/*
+*** Стили интерактивности элементов ***
+*/
+.contacts-list__item-link:hover,
+.contacts-list__item-link:focus {
+  color: $black;
+
+  background-color: $white;
+  border-color: $black;
+}
+
+.contacts-list__item-link:active {
+  transform: scale(0.95);
+}
+
+
+
+/*
+------------------------------------------------------------------
+========================= МЕДИАВЫРАЖЕНИЯ =========================
+------------------------------------------------------------------
+*/
+
+// *** ширина вьюпорта: "Планшет" ***
+@media (min-width: $width--tablet) {
+ .contacts-list {
+    min-height: 100%;
+    margin: 0;
+  } 
+}
