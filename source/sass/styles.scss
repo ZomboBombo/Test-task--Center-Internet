@@ -1,8 +1,33 @@
-/* ***********************
-*** 1. Служебные стили ***
-*********************** */
+/* *****************************
+****** 1. Служебные стили ******
+***************************** */
 @import "normalize.scss";
 @import "fonts.scss";
 @import "variables.scss";
 @import "mixins.scss";
 @import "global.scss";
+
+
+/* *****************************
+*** 2. Вспомогательные стили ***
+***************************** */
+@import "blocks/container.scss";
+
+
+/* *****************************
+******* 3. Основные стили ******
+***************************** */
+@import "blocks/site-header.scss";
+@import "blocks/main-navigation.scss";
+@import "blocks/navigation-list.scss";
+@import "blocks/news-column.scss";
+@import "blocks/news-article.scss";
+@import "blocks/news-picture.scss";
+@import "blocks/site-main-content.scss";
+@import "blocks/main-content.scss";
+@import "blocks/cards-list.scss";
+@import "blocks/picture-card.scss";
+@import "blocks/site-footer.scss";
+@import "blocks/copyright.scss";
+@import "blocks/contacts-list.scss";
+@import "blocks/socials-list.scss";
