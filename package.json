@@ -2,7 +2,6 @@
   "name": "test-task_center-internet",
   "version": "1.0.0",
   "description": "Test task for the position of Junior Frontend Developer for «Center-Internet» company.",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "gulp start"
@@ -18,8 +17,8 @@
   },
   "homepage": "https://github.com/ZomboBombo/Test-task--Center-Internet#readme",
   "devDependencies": {
-    "autoprefixer": "^10.1.0",
-    "browser-sync": "^2.26.13",
+    "autoprefixer": "^10.2.3",
+    "browser-sync": "^2.26.14",
     "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
     "gulp-csso": "^4.0.1",
@@ -28,10 +27,10 @@
     "gulp-rename": "^2.0.0",
     "gulp-sass": "^4.1.0",
     "gulp-sourcemaps": "^3.0.0",
-    "gulp-terser": "^2.0.0",
+    "gulp-terser": "^2.0.1",
     "readable-stream": "^3.6.0"
   },
   "dependencies": {
-    "postcss": "^8.2.1"
+    "postcss": "^8.2.4"
   }
 }
