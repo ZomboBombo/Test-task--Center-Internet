@@ -112,7 +112,7 @@ gulp.task('server', () => {
   gulp.watch('source/sass/**/*.{sass,scss}', gulp.series('css'));
   gulp.watch("source/img/icon-*.svg", gulp.series("sprite", "html", "refresh"));
   gulp.watch('source/js/*.js', gulp.series('refresh'));
-  gulp.watch('source/*.html', gulp.series('refresh'));
+  gulp.watch('source/*.html', gulp.series('html', 'refresh'));
 });
 
 gulp.task('refresh', (done) => {
