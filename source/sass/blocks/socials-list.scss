@@ -7,7 +7,7 @@
 }
 
 .socials-list__item {
-  margin-right: 6px;
+  margin-right: 12px;
 
 
   &:last-child {
@@ -18,10 +18,23 @@
 .socials-list__item-link {
   color: $white;
   text-decoration: none;
+}
+
+.socials-list__item-icon {
+  transition-property: fill, transform;
+  transition-duration: 0.08s;
+  transition-timing-function: ease;
+}
 
 
-  // *** Tempo ***
-  width: 20px;
-  height: 20px;
-  background-color: $silver;
+/*
+*** Стили интерактивности элементов ***
+*/
+.socials-list__item-link:hover .socials-list__item-icon,
+.socials-list__item-link:focus .socials-list__item-icon {
+  fill: $silver;
+}
+
+.socials-list__item-link:active .socials-list__item-icon {
+  transform: scale(0.9);
 }
